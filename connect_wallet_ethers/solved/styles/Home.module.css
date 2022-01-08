@@ -1,0 +1,48 @@
+.container {
+  padding: 0 2rem;
+  background-color: #FAFAFA;
+  width: 80%;
+  margin: 5% auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.buttonContainer {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.buttonBackground {
+  background: linear-gradient(90deg, 
+  #44ff9a -0.55%, 
+  #44b0ff 22.86%, 
+  #8b44ff 48.36%, 
+  #ff6644 73.33%, 
+  #ebff70 99.34%);
+  width: 200px;
+  height: 58px;
+  padding: 2px;
+  filter: blur(10px);
+  border-radius: 10px;
+  position: absolute;
+  z-index: 0;
+}
+
+.button {
+  background-color: black;
+  filter: none !important;
+  color: white;
+  z-index: 5;
+  width: 192px;
+  height: 55px;
+  border-radius: 20px;
+  font-size: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.addressLine {
+  font-size: 18px;
+  font-weight: bold;
+}
